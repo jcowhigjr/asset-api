@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+#source 'https://modules.locomotivecms.com'
+ruby '1.9.3'
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
@@ -13,6 +14,10 @@ gem 'custom_fields', :git => 'git://github.com/locomotivecms/custom_fields.git'
 gem 'locomotive_cms', :require => 'locomotive/engine', :git => 'git://github.com/thukim/engine.git'
 # Gems used only for assets and not required
 # in production environments by default.
+gem 'heroku'
+gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
+gem 'thin', :group => 'production'
+
 gem 'unicorn', :group => 'development'
 
 group :assets do
