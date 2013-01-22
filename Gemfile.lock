@@ -280,6 +280,7 @@ DEPENDENCIES
   compass-rails
   custom_fields!
   heroku
+  locomotive-aloha-rails
   locomotive-heroku (~> 0.0.2)
   locomotive_cms!
   rails (= 3.2.11)

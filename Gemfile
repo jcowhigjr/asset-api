@@ -17,6 +17,7 @@ gem 'locomotive_cms', :require => 'locomotive/engine', :git => 'git://github.com
 gem 'heroku'
 gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 gem 'thin', :group => 'production'
+gem 'locomotive-aloha-rails'
 
 gem 'unicorn', :group => 'development'
 
